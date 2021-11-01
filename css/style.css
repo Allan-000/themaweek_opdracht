@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.jumbotron{
+    background: url('../img/escaproom_jumbotron.jpg');
+    background-size:cover;
+    width: 100vw;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jumbotron h2{
+    color: white;
+    font-size: 2em;
+    background-color: rgba(134, 134, 134, 0.6);
+    padding: 20px 25px;
+    border-radius: 30px;
+}
+.intro{
+    background: linear-gradient(170deg,rgb(248, 226, 226),rgb(255, 230, 182));
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% ;
+}
+.intro p,
+.intro h2,
+.intro h3{
+line-height: 3em;
+}
+.intro p{
+    text-align: center
+}
+
