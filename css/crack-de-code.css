@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(220deg,rgb(248, 226, 226),rgb(255, 230, 182));
+    height: 100%;
+    font-size: 1.3rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    padding:70px 40px;
+    border-radius: 50px;
+    background:linear-gradient(190deg, rgb(72, 192, 108), rgb(88, 203, 241));
+    width: 60vw;
+    min-width: 60%;
+    box-shadow: 10px 10px 20px gray;
+}
+
+.borderd-number{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+.text{
+    line-height: 3em;
+    text-align: end;
+    color: white;
+    padding-left: 40px;
+}
+.locker{
+    height: 220px;
+}
+.left-side-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right-side-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .num-input{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+} */
+.code-input{
+    padding-top: 10px;
+}
+
+.check-btn{
+    border: none;
+    padding: 10px 13px;
+    margin-top: 10px;
+    border-radius: 14px;
+    transition: 200ms;
+}
+.check-btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 200ms;
+}
+
+

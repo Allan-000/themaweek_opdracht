@@ -24,7 +24,7 @@ body{
 }
 .intro{
     background: linear-gradient(170deg,rgb(248, 226, 226),rgb(255, 230, 182));
-    height: 40vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,5 +37,13 @@ line-height: 3em;
 }
 .intro p{
     text-align: center
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
 }
 
